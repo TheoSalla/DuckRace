@@ -9,14 +9,16 @@ namespace DuckRace
     {
         private readonly string name;
         private readonly string position = "1";
-        private readonly string speed = "red";
+        public int Speed { get; set; } = 50;
+        public int Distance { get; set; }
 
         public Duck(string name)
         {
             this.name = name;
         }
-        private string Move()
+        public string Move()
         {
+          
             return position;
         }
         public override string ToString()
