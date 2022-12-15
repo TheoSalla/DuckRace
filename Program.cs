@@ -2,4 +2,23 @@
 using DuckRace;
 
 Duck donald = new("Donald");
-System.Console.WriteLine(donald.ToString());
+Duck scrooge = new("Scrooge");
+Duck della = new("Della");
+bool finished = false;
+Race race = new();
+List<Duck> ducks = new()
+{
+    donald,
+    scrooge,
+    della
+};
+
+while (!race.isFinish)
+{
+    race.Run(ducks);
+    Thread.Sleep(1000);
+    System.Console.WriteLine("----------------------------------");
+
+}
+
+System.Console.WriteLine("Finished");
