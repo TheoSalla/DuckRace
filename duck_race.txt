@@ -1,0 +1,11 @@
+Write a program that simulates a duck race. The program should allow the user to create a specified number of ducks, each with a unique name and a random starting position. The user should be able to specify the length of the race track in meters.
+
+As the race begins, each duck should move at a different, random speed along the track until one of the ducks crosses the finish line. The program should display the name and the time taken by the winning duck to cross the finish line.
+
+Here are some additional requirements for the program:
+
+The user should be able to specify a minimum and maximum speed for the ducks, in meters per second.
+The program should display the current position of each duck at regular intervals (e.g. every second or half second), until the race is over.
+The program should use object-oriented programming techniques, with a Duck class that represents a single duck, and a Race class that represents the entire race and contains the Duck objects.
+The Duck class should include a Move() method that updates the duck's position based on its current speed, and a ToString() method that returns a string representation of the duck's name and position.
+The Race class should include a Run() method that simulates the race by calling the Move() method on each duck at regular intervals until one of the ducks crosses the finish line. The Run() method should also display the current position of each duck.
