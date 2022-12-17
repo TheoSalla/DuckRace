@@ -13,11 +13,44 @@ List<Duck> ducks = new()
     della
 };
 
+
+
+
+
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic2());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic3());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic4());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic5());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic6());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic7());
+Thread.Sleep(1000);
+Console.Clear();
+System.Console.WriteLine(donald.DuckPic8());
+Thread.Sleep(1000);
+Console.Clear();
+
+System.Console.WriteLine(donald.DuckBody);
 while (!race.isFinish)
 {
     race.Run(ducks);
-    Thread.Sleep(1000);
-    System.Console.WriteLine("----------------------------------");
+    Thread.Sleep(4000);
+
+    Console.Clear();
+
 
 }
 
